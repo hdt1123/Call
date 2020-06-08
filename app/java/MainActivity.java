@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
         i.setData(Uri.parse("tel:4388066603"));
 
         startActivity(i);
+        finish();
     }
 }
